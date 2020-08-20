@@ -40,6 +40,5 @@ for i = 1:1:length(x_path)
     figure(3), plot(gripp(1,:),gripp(2,:),'b','LineWidth',3), grid, axis([-10 100 -10 100])
     pause(0.001)
     
-    
 end
 
