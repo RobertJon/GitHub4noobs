@@ -5,6 +5,9 @@ clc
 
 x = linspace(-5,5,100);
 
+y1 = x.^2;
+y2 = (0.2*x).^4;
+
 
 figure(1), plot(x,y1,x,y2,'LineWidth',2), grid, title('GitHub tutorial'), xlabel('x'), ylabel('y')
 
